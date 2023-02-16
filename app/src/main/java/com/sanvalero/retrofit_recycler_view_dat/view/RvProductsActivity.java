@@ -28,11 +28,11 @@ public class RvProductsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rv_products);
 
-        initComponets();
+        initComponents();
         initData();
     }
 
-    private void initComponets() {
+    private void initComponents() {
         rvProducts = (RecyclerView) findViewById(R.id.rvProducts);
     }
 
